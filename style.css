@@ -1,0 +1,137 @@
+*{
+    scroll-behavior: smooth;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    opacity: 80%;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 40px;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 24px;
+    background-color: white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    
+}
+
+div.polaroid {
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(230, 234, 235);
+    border: none;
+    border-radius: 10px;
+    float: left;
+    min-height: 370px;
+    margin-bottom: 50px;
+}
+.polaroid img{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    height: 300px;
+}
+
+div.container {
+    padding: 5px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+div.map{
+   float: left;
+}
+h1,h2,p{
+    color: black;
+}
+div.desc{
+    float: left;
+    width: 50%; 
+    margin-left: 30px;
+    background-color: #b6b9e2;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+.desc p{
+    color: rgb(18, 18, 18);
+}
+.ifram{
+    width: 1000;
+    height: 550;
+    border:0;
+    border-radius: 10px;
+    
+    
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
